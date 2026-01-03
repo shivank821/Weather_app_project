@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Project</title>
+  <link rel="stylesheet" href="media.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="main-container">
+<nav class="mobile-menu" id="mobileMenu">
+  <span class="close" onclick="closeMenu()">×</span>
+  <a href="#">Home</a>
+  <a href="#">Location</a>
+  <a href="#">Weather</a>
+  <a href="#">About</a>
+</nav>
+<header>
+ <button class="menu-btn" onclick="openMenu()">☰</button>
+   <div class="logo">WheatherApp</div>
+  <div>
+  <div class="btn newbtn"></div>
+  <img class="imgs" src="screen.png">
+  </div>
+
+</header>
+ <div class="boxes">
+ <div class="leftbox">
+  <h2 id="head">Enter Any City Name</h2>
+  <input id="inp" type="text" placeholder="Enter any City name " value="Delhi">
+  <p id="para" style="padding:5px;"></p>
+  <button class="button">Search</button>
+  </div>
+
+<div class="rightbox">
+  <div>
+  <h2 id="h23">Today Weather</h2>
+  <div class="upbox">
+  <h2 id="h2"><span id="area">Delhi</span> , <span id="newdates"></span></h2>
+  <div class="notfound">
+    <p>Temperature: <span id="temp"></span> °C</p>
+    <p>Wind: <span id="wind"></span> m/s</p>
+    <p>Humidity: <span id="humidity"></span> %</p>
+    <p>Max Tem: <span id="temp_max"></span> °C</p>
+    <p>Min Tem: <span id="temp_min"></span> °C</p>
+    <p>Pressure: <span id="pressure"></span> hPa</p>
+    <p>Sea Level: <span id="sea_level"></span> hPa</p>
+    </div> 
+  </div>
+</div>
+
+  <div>
+   <div id="h22">4-Days Forecast</div>
+  <div class="downbox"></div>
+  </div>
+</div>
+</div>
+<footer class="footer">
+  <p>
+    Weather data by OpenWeather API <br>
+    © 2025 Weather App
+  </p>
+</footer>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

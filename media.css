@@ -1,0 +1,19 @@
+ @media (max-width: 800px) {
+   .rightbox {
+     display: flex;
+    flex-direction: column;
+
+   }
+ }
+ 
+ @media (min-width: 801px) {
+  .rightbox {
+    display: flex;
+    min-width:50rem;
+    justify-content: space-around;
+    
+  }
+  .upbox {
+  padding:2rem 5rem;
+}
+}
