@@ -15,5 +15,4 @@ It fetches real-time weather data using a public Weather API.
 - JavaScript
 - Weather API
 
-## Live Demo
-🌐 https://shivank821.github.io/Weather_app_project/
+
